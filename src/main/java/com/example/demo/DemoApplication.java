@@ -12,6 +12,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+	// ths is for web applicaton
 @GetMapping("/msg")
 	public String getMessage(){
 		return "Hello Nikhil";
