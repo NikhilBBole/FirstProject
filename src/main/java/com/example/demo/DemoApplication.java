@@ -15,6 +15,6 @@ public class DemoApplication {
 	// ths is for web applicaton
 @GetMapping("/msg")
 	public String getMessage(){
-		return "Hello Nikhil";
+		return "Hello welcome";
 }
 }
